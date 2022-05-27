@@ -4,7 +4,7 @@ var score = 0;
 function preload() {
   bg1 = loadImage("aladdin_cave.jpg");
   bg2 = loadImage("aladdin_cave2.jpg");
-  treasure = loadImage("treasure.jpg")
+  treasure = loadImage("treasure.jpg");
   // Adicione código para carregar imagem do plano de fundo do tesouro
 }
 
@@ -22,7 +22,7 @@ function draw() {
   fill("white");
   text("Pontuação: " + score, 450, 50);
 
-  console.log(mouseX);
+  //console.log(mouseX);
 
   if (score === 3) {
     clear();
@@ -31,7 +31,7 @@ function draw() {
 
     fill("white");
     textSize(40);
-    text("TESOURO ENCONTRADO");
+    text("TESOURO ENCONTRADO", 500, 250);
     // Adicione código para exibir texto "TESOURO ENCONTRADO"
   }
 
