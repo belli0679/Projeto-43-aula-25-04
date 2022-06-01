@@ -1,3 +1,5 @@
+//finalmenteeee
+
 var bg1, bg2, treasure, form, system, code, security;
 var score = 0;
 
